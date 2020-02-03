@@ -8,12 +8,6 @@ import com.intellij.psi.PsiReferenceRegistrar;
 import com.intellij.util.ProcessingContext;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Max
- * Date: 05.05.13
- * Time: 0:19
- */
 public class FileReferenceContributor extends PsiReferenceContributor {
 
     @Override

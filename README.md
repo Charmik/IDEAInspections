@@ -1,1 +1,4 @@
 # IDEAInspections
+
+
+#build: gradle jar

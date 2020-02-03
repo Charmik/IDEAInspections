@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.charm.inspections</id>
+    <name>SmartDec-helper-plugin</name>
+<!--    <vendor email="charmik1994@gmail.com" url="Charm">CharmCompany</vendor>-->
+
+    <description><![CDATA[
+    SmartDec helper plugin.<br>
+    ]]></description>
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <localInspection language="JAVA"
+                         displayName="no null check by Contracts"
+                         groupName="SmartDec-Contracts"
+                         enabledByDefault="true"
+                         implementationClass="MethodContractInspection"/>
+
+        <psi.referenceContributor implementation="FileReferenceContributor"/>
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
